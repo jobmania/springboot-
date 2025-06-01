@@ -32,4 +32,9 @@ logging:
   level:
     hello.controller: debug
 
+## 추천!!!
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
 
